@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anna's portfolio</title>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/scrolla.jquery.min.js"></script>
+  <script src="js/script.js" defer></script>
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+ <div class="wrap">
+  <header>
+    <div class="innerheader">
+      <div class="logo"><a href="index.html">Anna's portfolio</a></div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#visual">Work</a></li>
+          <li><a href="#faq">Faq</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="inner">
+    <section class="main">
+        <div class="text">
+            <h1 class="word" id="word1">THIS</h1>
+            <h1 class="word" id="word2">IS</h1>
+            <h1 class="word" id="word3">ANNA</h1>
+            <span class="word rotate" id="word4"><img src="img/메인아이콘.png" id="mainIcon"></span>
+            <p class="sub">* I design for people, not just for screen.</p>
+        </div> 
+    </section>
+<section class="about-section" id="about">
+  <div class="about-text">
+    <h2>ABOUT ME</h2>
+    <div class="top">
+    <div class="about-block">
+      <h3>Profile</h3>
+      <p><span>NAME</span>김안나</p>
+      <p><span>BIRTH</span>1990.02.11</p>
+      <p><span>PHONE</span>010-9936-4340</p>
+      <p><span>MAIL</span>god8814344@naver.com</p>
+    </div>
+    <div class="about-block">
+      <h3>Education</h3>
+      <p><span>2025</span>UXUI 디자인 프론트엔드 부트캠프</p>
+      <p><span>2012</span>사회복지 학과 졸업</p>
+      <p><span>2007</span>금성여자고등학교 졸업</p>
+    </div>
+    </div>
+    <div class="middle">
+    <div class="about-block">
+      <h3>Lisence</h3>
+      <p><span>2017</span>컴퓨터 그래픽스 운용기능사</p>
+      <p><span>2014</span>아동미술 심리상담사</p>
+      <p><span>2012</span>사회복지사 2급</p>
+      <p><span>2007</span>운전면허 1종 보통</p>
+    </div>
+
+    <div class="about-block">
+      <h3>History</h3>
+      <p><span>2024</span>온라인 의류 유통 사업</p>
+      <p><span>2021</span>홈페이지 제작 업체 ‘다한웹’</p>
+      <p><span>2019</span>블로그 전문 업체 ‘원페이지’</p>
+    </div>
+    </div>
+
+    <div class="bottom">
+    <div class="about-block">
+      <h3>Skills</h3>
+      <div class="skills">
+        <p>#유연한</p><p>#이해심</p><p>#책임감</p><p>#긍정적</p>
+      </div>
+    </div>
+
+    <div class="about-block">
+      <h3>Keyword</h3>
+      <div class="keywords">
+        <p>#유연한</p><p>#이해심</p><p>#책임감</p><p>#긍정적</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="about-photo">
+    <img src="img/anna.png" alt="프로필 사진" />
+  </div>
+</section>
+
+
+    <section class="visual en animate" data-animate="motion" id="visual">
+        <div class="inner">
+            <div class="textBox">
+                <p class="title">My<span class="en2">Work</span></p>
+                <p class="subTitle">Crafting Meaningful Web Experiences
+                </p>
+                <p class="text">사용자 중심의 경험을 구현하며,<br> 기술과 디자인을 조화시켜 반응성과 접근성을 갖춘 웹을 만듭니다.<br>
+                  작은 변화로 큰 가치를 창출하며 꾸준히 성장합니다.
+
+                </p>
+            </div>
+            <div class="aniBox">
+                <img src="img/spin.png" alt="" class="spin">
+                <img src="img/readMore1.png" alt="" class="arrow">
+            </div>
+        </div>
+    </section>
+      <div class="bg" id="bg1" style="background-image: url('img/visual.png')"></div>
+  <div class="bg" id="bg2" style="background-image: url('img/fandomapp.png')"></div>
+  <div class="bg" id="bg3" style="background-image: url('img/diningcode.png')"></div>
+
+  <section class="project content-wrapper">
+    <div class="panel" id="panel1">
+      <div class="content">
+        <div class="thumbnail-wrapper">
+          <img src="img/teamproject03.png" alt="Project1 thumbnail" class="thumbnail" />
+        </div>
+        <div class="text">
+          <h2 class="tam"><span>Web renewal(2025.06 ~ 2025.06)</span><br>Tambarins</h2> 
+          <p>
+
+탬버린즈 리뉴얼 프로젝트에서 브랜드 아이덴티티 강화와 사용자 경험 개선에 집중했습니다.<br>
+직관적 네비게이션과 시각적 요소로 탐색 편의를 높이고, 브랜드 스토리로 감성 연결을 강화했습니다.<br>
+팀원과 협력해 비전과 목표를 명확히 하여 사용자 경험 최적화에 주력했습니다.<br>
+
+
+
+</p>
+
+
+</p>
+          <a href="Tamburins/index.html" target="_blank">홈페이지 보기</a><a href="tamburins.pdf" target="_blank">기획서 보기</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" id="panel2">
+      <div class="content">
+        <div class="thumbnail-wrapper">
+          <img src="img/teamproject02.png" alt="Project2 thumbnail" class="thumbnail" />
+        </div>
+        <div class="text">
+          <h2 class="loo"><span>app develop(2025.07 ~ 2025.07)</span><br>Loopin</h2> 
+
+          <p>팬덤 특유의 활기차고 친근한 이미지를 살리면서,<br> 직관적인 네비게이션과 시각적 요소로 사용자의 탐색 편의를 높였습니다.<br>
+팬들의 감성을 자극하는 브랜드 스토리를 담아 감정적 연결을 강화했고, <br>팀원과 긴밀히 협력해 비전과 목표를 명확히 하여 사용자 경험 최적화에 주력했습니다.</p>
+<a href="loopin.pdf" target="_blank">기획서 보기</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" id="panel3">
+      <div class="content">
+        <div class="thumbnail-wrapper">
+          <img src="img/teamproject01.png" alt="Project3 thumbnail" class="thumbnail" />
+        </div>
+        <div class="text">
+          <h2 class="dining"><span>app renewal(2025.04 ~ 2025.04)</span><br>Dining code</h2> 
+          <p>다이닝 코드 리뉴얼 프로젝트에서 <br>브랜드 아이덴티티 강화와 사용자 경험 개선에 중점을 두었습니다.<br>
+깔끔하고 세련된 디자인으로 미식가들의 신뢰감을 높이고, <br>직관적인 네비게이션과 시각적 요소를 통해 음식점 탐색과 정보 확인을 쉽게 했습니다.</p>
+<a class="dining" href="dining.pdf" target="_blank">기획서 보기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+    <section class="works">
+        <div class="counter en">
+            <span class="now"></span> <!--현재리스트번호-->
+            <span class="all en2">/6</span> <!--전체리스트번호-->
+        </div>
+        <ul>
+            <li>
+                <a href="크루얼라모드최종_반응형/index.html" target="_blank">
+                    <div class="num" data-text="1"></div>
+                    <div class="imgBox"><img src="img/work1.jpg" alt=""></div>
+                    <div class="textBox">
+                        <p class="title">Crew a la mode</p>
+                        <p class="text en2">clonecoding</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="한화케미컬최종_반응형/index.html" target="_blank">
+                    <div class="num" data-text="2"></div>
+                    <div class="imgBox"><img src="img/work2.jpg" alt=""></div>
+                    <div class="textBox">
+                        <p class="title">Hanwha Chemical</p>
+                        <p class="text en2">clonecoding</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="와이스튜디오최종_반응형/index.html" target="_blank">
+                    <div class="num" data-text="3"></div>
+                    <div class="imgBox"><img src="img/work3.jpg" alt=""></div>
+                    <div class="textBox">
+                        <p class="title">Y studio</p>
+                        <p class="text en2">clonecoding</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="뮤자인최종_반응형/index.html" target="_blank">
+                    <div class="num" data-text="4"></div>
+                    <div class="imgBox"><img src="img/work4.jpg" alt=""></div>
+                    <div class="textBox">
+                        <p class="title">Musign</p>
+                        <p class="text en2">clonecoding</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="대방최종/index.html" target="_blank">
+                    <div class="num" data-text="5"></div>
+                    <div class="imgBox"><img src="img/work5.jpg" alt=""></div>
+                    <div class="textBox">
+                        <p class="title">Daebang</p>
+                        <p class="text en2">clonecoding</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="돕다최종_반응형/index.html" target="_blank">
+                    <div class="num" data-text="6"></div>
+                    <div class="imgBox"><img src="img/work6.jpg" alt=""></div>
+                    <div class="textBox">
+                        <p class="title">Dopda</p>
+                        <p class="text en2">clonecoding</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+    </section>
+    <section class="accordion-section" id="faq">
+  <div class="accordion">
+        <div class="item">
+      <button class="title">왜 UX/UI디자이너를 선택했나요?</button>
+      <div class="acc_content">
+        <p>편집디자인을 통해 처음 디자인에 입문했고, 그 경험을 계기로 UX/UI 분야에 흥미를 가지게 되었습니다.
+        현재는 사용자 중심의 디자인과 퍼블리싱 역량을 함께 키우며, 퍼스널 브랜딩 포트폴리오를 통해 저만의 방향성을 만들어가고 있습니다.</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="title">본인을 한 단어로 표현한다면?</button>
+      <div class="acc_content">
+        <p>‘성장’입니다. 항상 배우고 개선하며 더 나은 UX/UI디자이가 되기 위해 노력합니다.</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="title">UX/UI 디자이너로서 가장 중요하게 생각하는 역량은 무엇인가요?</button>
+      <div class="acc_content">
+        <p>협업 소통 능력, 그리고 사용자 경험을 이해하는 시각입니다.</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="title">프로젝트를 진행하면서 겪었던 가장 큰 어려움과 극복 방법은?</button>
+      <div class="acc_content">
+        <p>요구사항 변경과 일정 지연이 있었는데, 팀원과의 적극적 소통과 우선순위 재조정을 통해 해결했습니다.</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="title">최신 웹 기술 중 관심 있는 기술이나 공부하고 있는 분야가 있나요?</button>
+      <div class="acc_content">
+        <p>최근에는 반응형 웹과 접근성, 그리고 GSAP을 활용한 애니메이션에 집중하고 있습니다.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <button class="title">디자인 툴 중 어떤 것을 주로 사용하며, 그 이유는 무엇인가요?</button>
+      <div class="acc_content">
+        <p>주로 Figma를 사용합니다. 협업 기능이 뛰어나고 클라우드 기반이라 실시간으로 팀원들과 작업 내용을 공유하고 피드백 주고받기가 편리합니다.</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="title">앞으로 UX/UI디자이너로서 어떤 목표를 가지고 있나요?</button>
+      <div class="acc_content">
+        <p>UI/UX와 프론트엔드 개발 역량을 함께 갖춘 멀티플레이어가 되어 더 나은 사용자 경험을 만드는 것입니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">  
+  <div class="box"></div>
+  <h1 class="contact-title">CONTACT</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#faq">Faq</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="contact-box">
+    <div class="contact-left">
+      <strong>Anna Kim</strong>
+      <a href="resume.pdf" download="resume.pdf" class="download-link">이력서 다운로드 &gt;</a>
+    </div>
+    <div class="contact-right">
+      <div class="phone">010-9936-4340</div>
+      <div class="email">god8814344@naver.com</div>
+    </div>
+  </div>
+
+  <div class="message">
+    Thank you for your interest in my work.<br />
+    I’ll be waiting with great hope and excitement.
+  </div>
+</section>
+
+
+
+  </div>
+ </div>
+
+</body>
+</html>
